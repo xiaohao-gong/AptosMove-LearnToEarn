@@ -10,7 +10,7 @@ module hello_world::hello_world {
     // https://explorer.aptoslabs.com/txn/0x6238c6e8f786a4ce3c5979d3dafabd859821875291ac3c03c2deb308dc9b4f4c?network=testnet
     fun init_module(sender: &signer) {
         move_to(sender, HelloWorld{
-            message:  utf8(b"Hello, <Your Github ID>!")
+            message:  utf8(b"Hello, a-super-cat!")
         });
     }
 }

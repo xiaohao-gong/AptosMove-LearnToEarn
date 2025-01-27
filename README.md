@@ -51,9 +51,10 @@
 
 ## 任务列表
 
-| 任务编号 | 任务名称 | 任务奖励 |
-|--------|--------|--------|
-| [Task 1](https://www.buildthree.xyz/bounty/0xd4548fe6626f7fb1c188d233677145ee1018aa2506590535baeeb602c01fabb1) | 完成 Aptos Testnet 上的 hello  world 合约部署 | 1 USDT |
+| 任务编号 | 任务名称 | 任务奖励 | 详情 |
+|--------|--------|--------|--------|
+| [Task 1](https://www.buildthree.xyz/bounty/0xd4548fe6626f7fb1c188d233677145ee1018aa2506590535baeeb602c01fabb1) | 完成 Aptos Testnet 上的 hello  world 合约部署 | 1 USDT     | [任务详情](#Task-1)  |
+| [Task 2](https://www.buildthree.xyz/bounty/0x011a4e5e7adf4f5e6505de97ddde2565b467f1ff6e1bc4e6acca8d36d02fd8f6) | 完成 Aptos Testnet 上的 Coin 合约部署         | 1.5 USDT   | [任务详情](#Task-2)  |
 
 
 ### Task 1
@@ -156,3 +157,23 @@
 7. **等待合并 - 提交 PR 的链接至 Build3**
    - 当请求合并的 PR 被成功合并后，将合并的 PR 链接发送至
 </details>
+
+### Task 2
+任务简要： 完成 Aptos Testnet 上的 Coin 水龙头合约部署
+任务奖励： 1.5 USDT 
+任务详情：
+
+- 完成 Coin 合约，在合约的 `fun init_module` 函数中发行 Coin
+- `Coin` 的名字为 `Coin + _ + Github ID`, 例如： 我是 inekxo8 ，我发行的代币 name 为 `Coin_inekxo8`
+- `Coin` 的 `symbol` 不做要求, 合理即可
+- `Coin` 的精度为 `8`
+- **当前合约应该可以由任意账户领取 `Coin`, 实现代币水龙头的功能**
+- 将合约部署 txn 写入合约的注释部分
+- 将合约源码用 pull request 的方式提交至当前仓库（合约应该放入 一个以你的 Github id 作为名字的文件夹）
+- 等待 PR 审核，完成修改
+- 将已经合并的 PR 链接发送至 Build3 的 Proof 等待审核并领取奖励
+
+
+参考资料：
+- init_module: https://aptos.dev/en/build/smart-contracts/modules-on-aptos
+- Aptos Coin: https://aptos.dev/en/build/smart-contracts/aptos-coin

@@ -1,0 +1,14 @@
+[package]
+name = "task2"
+version = "1.0.0"
+authors = []
+
+[addresses]
+coin_punkcanyang = "0x0ea8d82fd682bfe97c8b236e6711ff81854c6504b640d24621328f3a04c7105a"
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies] 

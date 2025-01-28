@@ -1,10 +1,10 @@
 [package]
-name = "task2_20250128"
+name = "task2_2"
 version = "1.0.0"
 authors = []
 
 [addresses]
-martinyeung_faucet="0x7001306d411a24cd2a43b9af7d77e88ae53c41b50126d1e86fe20a30892ba1f6"
+martinyeung_coin_faucet="0x7001306d411a24cd2a43b9af7d77e88ae53c41b50126d1e86fe20a30892ba1f6"
 
 [dev-addresses]
 

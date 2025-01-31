@@ -1,0 +1,15 @@
+[package]
+name = "test2"
+version = "1.0.0"
+authors = []
+
+[addresses]
+lazy_forever = "0xee746a101bf7720a5a2432b8eb00d121e9ce6fb662875175049221ef0ab9cc72"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]

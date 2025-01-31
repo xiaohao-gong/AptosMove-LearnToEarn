@@ -1,0 +1,15 @@
+[package]
+name = "aptos_token"
+version = "1.0.0"
+authors = []
+
+[addresses]
+aptos_coin = "0641e380eb6e0943db2aa758f2bae67717d2787091bc27964583ce66a9407297"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
